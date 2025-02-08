@@ -1,0 +1,48 @@
+{
+  "originUrl": "https://www.shredit.com/en-us",
+  "totalUrls": 0,
+  "urls": [
+    {
+      "url": "https://www.shredit.com/en-us",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.shredit.com/en-us/secure-shredding-services",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.shredit.com/en-us/who-we-serve",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.shredit.com/en-us/secure-document-destruction-and-shredding-prices",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.shredit.com/en-us/service-locations",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.shredit.com/en-us/resource-center",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.shredit.com/en-us/about",
+      "source": "NAV"
+    },
+    {
+      "url": "https://www.shredit.com/en-us/contact-us",
+      "source": "NAV"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {}
+  }
+}
