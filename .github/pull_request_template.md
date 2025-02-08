@@ -4,4 +4,4 @@ Fix #<gh-issue-id>
 
 Test URLs:
 - Before: https://main--piyush-shredit1--aemdemos.aem.live/
-- After: https://<branch>--piyush-shredit1--aemdemos.aem.live/
+- After: https://main--piyush-shredit1--aemdemos.aem.live/
