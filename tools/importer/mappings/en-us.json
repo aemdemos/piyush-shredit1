@@ -1,0 +1,426 @@
+{
+  "url": "https://www.shredit.com/en-us",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/div[2]/div[1]/form[1]\n  /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[5]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[6]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[7]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[8]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[9]\n  /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[2]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[3]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[5]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[6]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[7]",
+    "hash": -1554491938
+  },
+  "pageHeight": 4536,
+  "mapping": [
+    {
+      "id": 2,
+      "path": "/en-us",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-2023114603",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 47,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/div[2]/div[1]/form[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 165,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-a7uzzt-box-id-2023114603"
+            },
+            {
+              "id": "box-id--2147192605",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 463,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 0,
+              "y": 165,
+              "mapping": "hero",
+              "customBlockName": "aihero-a7uzzt-2147192605"
+            },
+            {
+              "id": "box-id--2147192574",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 475,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow ss-vertical-space--no-space ss-vertical-dividers aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-4 cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow ss-vertical-space--no-space ss-vertical-dividers aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-4 cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow ss-vertical-space--no-space ss-vertical-dividers aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-4 cmp-columnrow__item\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 628,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-a7uzzt-2147192574"
+            },
+            {
+              "id": "box-id-1759236772",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1052,
+              "height": 38,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 114,
+              "y": 1151,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-a7uzzt-box-id-1759236772"
+            },
+            {
+              "id": "box-id-1759236803",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1052,
+              "height": 96,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"contentcontainer-218777c14e\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-v-space--small ss-bg-color--white aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-9 offset-lg-2 cmp-columnrow__item\"]/div[@class=\"columnrow\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-3 px-0 col-7 cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"contentcontainer-218777c14e\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-v-space--small ss-bg-color--white aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-9 offset-lg-2 cmp-columnrow__item\"]/div[@class=\"columnrow\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-3 px-0 col-5 cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"contentcontainer-218777c14e\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-v-space--small ss-bg-color--white aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-9 offset-lg-2 cmp-columnrow__item\"]/div[@class=\"columnrow\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-7 col-lg-3 px-0 cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[4]",
+                  "xpathWithDetails": "id(\"contentcontainer-218777c14e\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-v-space--small ss-bg-color--white aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-9 offset-lg-2 cmp-columnrow__item\"]/div[@class=\"columnrow\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-5 col-lg-3 px-0 mb-0 cmp-columnrow__item\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 4,
+                "numRows": 1
+              },
+              "x": 114,
+              "y": 1213,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-a7uzzt-box-id-1759236803"
+            },
+            {
+              "id": "box-id-433234181",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1116,
+              "height": 38,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 82,
+              "y": 1389,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-a7uzzt-box-id-433234181"
+            },
+            {
+              "id": "box-id-433234212",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1116,
+              "height": 284,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/ul[1]/li[1]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"hoverstateteaserlist teaserlist ss-front-font-color--white ss-back-bg-color--primary ss-front-title-alignment--center ss-front-image-alignment--center aem-GridColumn aem-GridColumn--default--12\"]/ul[@class=\"cmp-teaserlist\"]/li[@class=\"cmp-teaserlist__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/ul[1]/li[2]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"hoverstateteaserlist teaserlist ss-front-font-color--white ss-back-bg-color--primary ss-front-title-alignment--center ss-front-image-alignment--center aem-GridColumn aem-GridColumn--default--12\"]/ul[@class=\"cmp-teaserlist\"]/li[@class=\"cmp-teaserlist__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/ul[1]/li[3]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"hoverstateteaserlist teaserlist ss-front-font-color--white ss-back-bg-color--primary ss-front-title-alignment--center ss-front-image-alignment--center aem-GridColumn aem-GridColumn--default--12\"]/ul[@class=\"cmp-teaserlist\"]/li[@class=\"cmp-teaserlist__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/ul[1]/li[4]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"hoverstateteaserlist teaserlist ss-front-font-color--white ss-back-bg-color--primary ss-front-title-alignment--center ss-front-image-alignment--center aem-GridColumn aem-GridColumn--default--12\"]/ul[@class=\"cmp-teaserlist\"]/li[@class=\"cmp-teaserlist__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/ul[1]/li[5]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"hoverstateteaserlist teaserlist ss-front-font-color--white ss-back-bg-color--primary ss-front-title-alignment--center ss-front-image-alignment--center aem-GridColumn aem-GridColumn--default--12\"]/ul[@class=\"cmp-teaserlist\"]/li[@class=\"cmp-teaserlist__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/ul[1]/li[6]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"hoverstateteaserlist teaserlist ss-front-font-color--white ss-back-bg-color--primary ss-front-title-alignment--center ss-front-image-alignment--center aem-GridColumn aem-GridColumn--default--12\"]/ul[@class=\"cmp-teaserlist\"]/li[@class=\"cmp-teaserlist__item\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 6,
+                "numRows": 1
+              },
+              "x": 82,
+              "y": 1451,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-a7uzzt-box-id-433234212"
+            },
+            {
+              "id": "box-id-1677998662",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1116,
+              "height": 38,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 82,
+              "y": 1799,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-a7uzzt-box-id-1677998662"
+            },
+            {
+              "id": "box-id-1677998693",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1116,
+              "height": 356,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"contentcontainer-cc938c34d3\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-3 cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"contentcontainer-cc938c34d3\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-3 cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"contentcontainer-cc938c34d3\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-3 cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]",
+                  "xpathWithDetails": "id(\"contentcontainer-cc938c34d3\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-3 cmp-columnrow__item\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 4,
+                "numRows": 1
+              },
+              "x": 82,
+              "y": 1845,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-a7uzzt-box-id-1677998693"
+            },
+            {
+              "id": "box-id--2147192450",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 120,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[6]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-size--full ss-v-space--small ss-alignment--center ss-bg-color--primary aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow ss-verticalalignment-middle aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-4 cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-size--full ss-v-space--small ss-alignment--center ss-bg-color--primary aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow ss-verticalalignment-middle aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-4 cmp-columnrow__item\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 2234,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-a7uzzt-2147192450"
+            },
+            {
+              "id": "box-id--2147192419",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 368,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[7]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-alignment--center ss-bg-color--white aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow ss-verticalalignment-middle ss-vertical-space--no-space aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-alignment--center ss-bg-color--white aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"columnrow ss-verticalalignment-middle ss-vertical-space--no-space aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-5 cmp-columnrow__item\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 2354,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-a7uzzt-2147192419"
+            },
+            {
+              "id": "box-id-1117324809",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1116,
+              "height": 38,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 82,
+              "y": 2754,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-a7uzzt-box-id-1117324809"
+            },
+            {
+              "id": "box-id-1117324840",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1116,
+              "height": 362,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[2]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[2]/ul[1]/li[1]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-v-space--small ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"teaserlist aem-GridColumn aem-GridColumn--default--12\"]/ul[@class=\"cmp-teaserlist\"]/li[@class=\"cmp-teaserlist__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[2]/ul[1]/li[2]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-v-space--small ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"teaserlist aem-GridColumn aem-GridColumn--default--12\"]/ul[@class=\"cmp-teaserlist\"]/li[@class=\"cmp-teaserlist__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[2]/ul[1]/li[3]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-v-space--small ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"teaserlist aem-GridColumn aem-GridColumn--default--12\"]/ul[@class=\"cmp-teaserlist\"]/li[@class=\"cmp-teaserlist__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[2]/ul[1]/li[4]",
+                  "xpathWithDetails": "id(\"contentcontainer-d8c2ed8bcd\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pagesection responsivegrid ss-v-space--small ss-bg-color--gray aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"cmp-pagesection\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"teaserlist aem-GridColumn aem-GridColumn--default--12\"]/ul[@class=\"cmp-teaserlist\"]/li[@class=\"cmp-teaserlist__item\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 4,
+                "numRows": 1
+              },
+              "x": 82,
+              "y": 2824,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-a7uzzt-box-id-1117324840"
+            },
+            {
+              "id": "box-id--1369846425",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1092,
+              "height": 38,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 94,
+              "y": 3218,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-a7uzzt-1369846425"
+            },
+            {
+              "id": "box-id--1369846394",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1092,
+              "height": 60,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 94,
+              "y": 3268,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-a7uzzt-1369846394"
+            },
+            {
+              "id": "box-id--1369846363",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1092,
+              "height": 18,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 94,
+              "y": 3344,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-a7uzzt-1369846363"
+            },
+            {
+              "id": "box-id--1369846332",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1092,
+              "height": 74,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"216\")/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"216\")/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"216\")/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg cmp-columnrow__item\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]/div[1]/div[4]",
+                  "xpathWithDetails": "id(\"216\")/div[@class=\"columnrow aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"row cmp-columnrow\"]/div[@class=\"col-lg-3 cmp-columnrow__item\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 4,
+                "numRows": 1
+              },
+              "x": 94,
+              "y": 3378,
+              "mapping": "columns",
+              "customBlockName": "aicolumns-a7uzzt-1369846332"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

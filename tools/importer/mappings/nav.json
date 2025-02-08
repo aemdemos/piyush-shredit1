@@ -1,0 +1,55 @@
+{
+  "url": "https://www.shredit.com/en-us",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/div[1]/div[2]\n  /html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/div[2]/div[1]/form[1]\n  /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[5]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[6]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[7]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[8]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[9]\n  /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[1]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[2]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[3]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[5]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[6]\n  - /html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/div[7]",
+    "hash": -1554491938
+  },
+  "pageHeight": 4536,
+  "mapping": [
+    {
+      "id": "nav-1",
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "nav-1-1",
+          "blocks": [
+            {
+              "id": "box-id-1722200707",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1280,
+              "height": 165,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"contentcontainer-360a555340\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pageheader aem-GridColumn aem-GridColumn--default--12\"]/header[@class=\"page-header__cmp\"]/div[@class=\"page-header__content\"]/div[@class=\"page-header__container container\"]/div[@class=\"page-header__logo\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"contentcontainer-360a555340\")/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12\"]/div[@class=\"pageheader aem-GridColumn aem-GridColumn--default--12\"]/header[@class=\"page-header__cmp\"]/div[@class=\"page-header__content\"]/div[@class=\"page-header__container container\"]/div[@class=\"page-header__site-nav\"]"
+                }
+              ],
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "x": 0,
+              "y": 0,
+              "mapping": "header",
+              "customBlockName": "aiheader-a7uzzt-box-id-1722200707"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
