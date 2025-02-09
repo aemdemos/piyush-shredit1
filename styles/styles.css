@@ -19,19 +19,41 @@
   --link-hover-color: #1d3ecf;
   --body-font-family: "lato-regular", "lato-regular Fallback", "sans-serif";
   --heading-font-family: "lato-regular", "lato-regular Fallback", "sans-serif";
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
+  --body-font-size-m: 20px;
+  --body-font-size-s: 16px;
+  --body-font-size-xs: 16px;
+  --heading-font-size-xxl: 48px;
+  --heading-font-size-xl: 32px;
+  --heading-font-size-l: 26px;
+  --heading-font-size-m: 20px;
+  --heading-font-size-s: 16px;
+  --heading-font-size-xs: 16px;
   --nav-height: 64px;
 }
 
 /* fallback fonts */
+@font-face {
+  font-family:"Roboto Fallback";
+  font-style:normal;
+  font-weight:400;
+  src:local("Arial");
+  ascent-override:92.49%;
+  descent-override:24.34%;
+  line-gap-override:0.00%;
+  size-adjust:100.30%;
+}
+
+@font-face {
+  font-family:"Roboto Fallback";
+  font-style:normal;
+  font-weight:500;
+  src:local("Arial");
+  ascent-override:91.62%;
+  descent-override:24.11%;
+  line-gap-override:0.00%;
+  size-adjust:101.26%;
+}
+
 @font-face {
   font-family:"lato-regular Fallback";
   font-style:normal;
@@ -55,17 +77,6 @@
 }
 
 @font-face {
-  font-family:"Font Awesome 6 Free Fallback";
-  font-style:normal;
-  font-weight:900;
-  src:local("Arial Bold");
-  ascent-override:89.65%;
-  descent-override:14.65%;
-  line-gap-override:0.00%;
-  size-adjust:100.00%;
-}
-
-@font-face {
   font-family:"Font Awesome 6 Brands Fallback";
   font-style:normal;
   font-weight:400;
@@ -77,38 +88,27 @@
 }
 
 @font-face {
-  font-family:"Roboto Fallback";
+  font-family:"Font Awesome 6 Free Fallback";
   font-style:normal;
-  font-weight:500;
-  src:local("Arial");
-  ascent-override:91.62%;
-  descent-override:24.11%;
+  font-weight:900;
+  src:local("Arial Bold");
+  ascent-override:89.65%;
+  descent-override:14.65%;
   line-gap-override:0.00%;
-  size-adjust:101.26%;
-}
-
-@font-face {
-  font-family:"Roboto Fallback";
-  font-style:normal;
-  font-weight:400;
-  src:local("Arial");
-  ascent-override:92.49%;
-  descent-override:24.34%;
-  line-gap-override:0.00%;
-  size-adjust:100.30%;
+  size-adjust:100.00%;
 }
 
 @media (width>=900px) {
   :root {
-    --body-font-size-m: 18px;
+    --body-font-size-m: 20px;
     --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
+    --body-font-size-xs: 16px;
+    --heading-font-size-xxl: 48px;
+    --heading-font-size-xl: 32px;
+    --heading-font-size-l: 26px;
+    --heading-font-size-m: 20px;
+    --heading-font-size-s: 16px;
+    --heading-font-size-xs: 16px;
   }
 }
 
