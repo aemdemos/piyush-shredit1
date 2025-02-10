@@ -68,7 +68,7 @@
   margin-left: 20px; /* Add margin to the left of the search icon */
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .aicolumns-u4i0gy-1102402085 {
     gap: 24px; /* Add some gap between columns */
   }
