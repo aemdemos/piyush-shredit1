@@ -1,0 +1,81 @@
+
+.aicolumns-u4i0gy-1102402085-wrapper {
+  background-color: #0b1354; /* Dark blue background */
+  padding: 10px 20px; /* Add padding to the container */
+}
+
+.aicolumns-u4i0gy-1102402085 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aicolumns-u4i0gy-1102402085 > div {
+  display: flex;
+  flex-direction: row; /* Ensure elements are aligned in a row */
+  align-items: center;
+  flex: 1;
+  justify-content: space-between; /* Add space between each section */
+}
+
+.aicolumns-u4i0gy-1102402085 > div > div {
+  display: flex;
+  flex-direction: column; /* Ensure inner elements are aligned in a column */
+  align-items: flex-start;
+}
+
+.aicolumns-u4i0gy-1102402085 .button-container {
+  display: none; /* Hide the button containers */
+}
+
+.aicolumns-u4i0gy-1102402085 h3 {
+  margin: 0; /* Remove default margin */
+  color: white; /* Set heading color to white for better visibility */
+  margin-right: 20px; /* Add spacing to the right of each heading */
+}
+
+.aicolumns-u4i0gy-1102402085 ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.aicolumns-u4i0gy-1102402085 li {
+  margin-bottom: 5px; /* Add some space between list items */
+}
+
+.aicolumns-u4i0gy-1102402085 a {
+  color: white; /* Set link color to white for better visibility */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.aicolumns-u4i0gy-1102402085 a:hover {
+  text-decoration: underline; /* Add underline on hover for links */
+}
+
+.aicolumns-u4i0gy-1102402085 img {
+  display: none; /* Hide any images if present */
+}
+
+.aicolumns-u4i0gy-1102402085 .search-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('path-to-search-icon.png'); /* Ensure correct path to search icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 20px; /* Add margin to the left of the search icon */
+}
+
+@media (min-width: 900px) {
+  .aicolumns-u4i0gy-1102402085 {
+    gap: 24px; /* Add some gap between columns */
+  }
+}
+
+.aicolumns-u4i0gy-1102402085-container > .aicolumns-u4i0gy-1102402085-wrapper {
+  max-width: unset;
+  padding: 0;
+  margin: 0;
+}
