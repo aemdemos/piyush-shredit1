@@ -61,7 +61,7 @@
               "x": 0,
               "y": 3468,
               "mapping": "columns",
-              "customBlockName": "ai-columns"
+              "customBlockName": "ai-columns-footer"
             }
           ]
         }
