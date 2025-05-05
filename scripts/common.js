@@ -29,31 +29,31 @@ const getLanguagePath = () => {
 /**
  * Loads the constants file where configuration values are stored
  */
-async function getConstantValues() {
-  const url = `${getLanguagePath()}constants.json`;
-  let constants;
-  try {
-    const response = await fetch(url).then((resp) => resp.json());
-    if (!response.ok) {
-      constants = response;
-    }
-  } catch (error) {
-    throw new Error('Error with constants file', error);
-  }
-  return constants;
-}
+// async function getConstantValues() {
+//   const url = `${getLanguagePath()}constants.json`;
+//   let constants;
+//   try {
+//     const response = await fetch(url).then((resp) => resp.json());
+//     if (!response.ok) {
+//       constants = response;
+//     }
+//   } catch (error) {
+//     throw new Error('Error with constants file', error);
+//   }
+//   return constants;
+// }
 
-const { searchConfig, cookieValues, magazineConfig, headerConfig, tools, truckConfiguratorUrls, newsFeedConfig, feeds } = await getConstantValues();
+// const { searchConfig, cookieValues, magazineConfig, headerConfig, tools, truckConfiguratorUrls, newsFeedConfig, feeds } = await getConstantValues();
 
 // This data comes from the sharepoint 'constants.xlsx' file
-const SEARCH_CONFIGS = formatValues(searchConfig?.data);
-const COOKIE_CONFIGS = formatValues(cookieValues?.data);
-const MAGAZINE_CONFIGS = formatValues(magazineConfig?.data);
-const HEADER_CONFIGS = formatValues(headerConfig?.data);
-const TOOLS_CONFIGS = formatValues(tools?.data);
-const TRUCK_CONFIGURATOR_URLS = formatValues(truckConfiguratorUrls?.data);
-const NEWS_FEED_CONFIGS = formatValues(newsFeedConfig?.data);
-const FEEDS = formatValuesByKey(feeds?.data);
+// const SEARCH_CONFIGS = formatValues(searchConfig?.data);
+// const COOKIE_CONFIGS = formatValues(cookieValues?.data);
+// const MAGAZINE_CONFIGS = formatValues(magazineConfig?.data);
+// const HEADER_CONFIGS = formatValues(headerConfig?.data);
+// const TOOLS_CONFIGS = formatValues(tools?.data);
+// const TRUCK_CONFIGURATOR_URLS = formatValues(truckConfiguratorUrls?.data);
+// const NEWS_FEED_CONFIGS = formatValues(newsFeedConfig?.data);
+// const FEEDS = formatValuesByKey(feeds?.data);
 
 async function getPlaceholders() {
   const url = `${getLanguagePath()}placeholder.json`;
@@ -396,23 +396,23 @@ function checkOneTrustGroup(groupName, cookieCheck = false) {
   return cookieCheck || oneTrustCookie.includes(`${groupName}:1`);
 }
 
-const { PERFORMANCE_COOKIE = false, FUNCTIONAL_COOKIE = false, TARGETING_COOKIE = false, SOCIAL_COOKIE = false } = COOKIE_CONFIGS;
+// const { PERFORMANCE_COOKIE = false, FUNCTIONAL_COOKIE = false, TARGETING_COOKIE = false, SOCIAL_COOKIE = false } = COOKIE_CONFIGS;
 
-function isPerformanceAllowed() {
-  return checkOneTrustGroup(PERFORMANCE_COOKIE);
-}
+// function isPerformanceAllowed() {
+//   return checkOneTrustGroup(PERFORMANCE_COOKIE);
+// }
 
-function isFunctionalAllowed() {
-  return checkOneTrustGroup(FUNCTIONAL_COOKIE);
-}
+// function isFunctionalAllowed() {
+//   return checkOneTrustGroup(FUNCTIONAL_COOKIE);
+// }
 
-function isTargetingAllowed() {
-  return checkOneTrustGroup(TARGETING_COOKIE);
-}
+// function isTargetingAllowed() {
+//   return checkOneTrustGroup(TARGETING_COOKIE);
+// }
 
-function isSocialAllowed() {
-  return checkOneTrustGroup(SOCIAL_COOKIE);
-}
+// function isSocialAllowed() {
+//   return checkOneTrustGroup(SOCIAL_COOKIE);
+// }
 
 /**
  * Helper for delaying a function
@@ -732,14 +732,14 @@ export {
   formatValuesByKey,
   getLanguagePath,
   getConstantValues,
-  SEARCH_CONFIGS,
-  COOKIE_CONFIGS,
-  MAGAZINE_CONFIGS,
-  HEADER_CONFIGS,
-  TOOLS_CONFIGS,
-  TRUCK_CONFIGURATOR_URLS,
-  NEWS_FEED_CONFIGS,
-  FEEDS,
+  // SEARCH_CONFIGS,
+  // COOKIE_CONFIGS,
+  // MAGAZINE_CONFIGS,
+  // HEADER_CONFIGS,
+  // TOOLS_CONFIGS,
+  // TRUCK_CONFIGURATOR_URLS,
+  // NEWS_FEED_CONFIGS,
+  // FEEDS,
   getPlaceholders,
   getTextLabel,
   getOrigin,
@@ -755,14 +755,14 @@ export {
   slugify,
   extractObjectFromArray,
   checkOneTrustGroup,
-  PERFORMANCE_COOKIE,
-  FUNCTIONAL_COOKIE,
-  TARGETING_COOKIE,
-  SOCIAL_COOKIE,
-  isPerformanceAllowed,
-  isFunctionalAllowed,
-  isTargetingAllowed,
-  isSocialAllowed,
+  // PERFORMANCE_COOKIE,
+  // FUNCTIONAL_COOKIE,
+  // TARGETING_COOKIE,
+  // SOCIAL_COOKIE,
+  // isPerformanceAllowed,
+  // isFunctionalAllowed,
+  // isTargetingAllowed,
+  // isSocialAllowed,
   debounce,
   getJsonFromUrl,
   formatStringToArray,
