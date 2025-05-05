@@ -731,7 +731,7 @@ export {
   formatValues,
   formatValuesByKey,
   getLanguagePath,
-  getConstantValues,
+  // getConstantValues,
   // SEARCH_CONFIGS,
   // COOKIE_CONFIGS,
   // MAGAZINE_CONFIGS,
